@@ -248,7 +248,7 @@ async def auto_rename_files(client, message):
             path = renamed_file_path
 
         # Upload the file
-        upload_msg = await download_msg.edit("Uploading the file...")
+        upload_msg = await download_msg.edit("Uploading...")
 
         ph_path = None
         c_caption = await AshutoshGoswami24.get_caption(message.chat.id)
